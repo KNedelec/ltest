@@ -5,17 +5,17 @@
 0 silly argv   '$0': '/Users/knedelec/tmp/lerna_repo/node_modules/.bin/lerna' }
 1 notice cli v3.20.2
 2 verbose rootPath /Users/knedelec/tmp/lerna_repo
-3 info current version 2.2.0
+3 info current version 2.3.0
 4 silly isAnythingCommitted
 5 verbose isAnythingCommitted 1
 6 silly currentBranch
 7 verbose currentBranch master
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 4
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 5
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "v2.0.0-4-g7c97d59" => {"lastTagName":"v2.0.0","lastVersion":"v2.0.0","refCount":"4","sha":"7c97d59","isDirty":false}
+13 silly git-describe.sync "v2.0.0-5-gd5b9acf" => {"lastTagName":"v2.0.0","lastVersion":"v2.0.0","refCount":"5","sha":"d5b9acf","isDirty":false}
 14 info Looking for changed packages since v2.0.0
 15 silly checking diff packages/main_test
 16 silly found diff in packages/main_test
@@ -31,8 +31,8 @@
 24 verbose updated main_test
 25 verbose updated @kev/test1
 26 verbose updated @kev/test2
-27 verbose git-describe undefined => "v2.0.0-4-g7c97d59"
-28 silly git-describe parsed => {"lastTagName":"v2.0.0","lastVersion":"v2.0.0","refCount":"4","sha":"7c97d59","isDirty":false}
+27 verbose git-describe undefined => "v2.0.0-5-gd5b9acf"
+28 silly git-describe parsed => {"lastTagName":"v2.0.0","lastVersion":"v2.0.0","refCount":"5","sha":"d5b9acf","isDirty":false}
 29 silly fixed for main_test at /Users/knedelec/tmp/lerna_repo/packages/main_test
 30 verbose getChangelogConfig using preset "conventional-changelog-angular"
 31 silly npa Result {
@@ -51,11 +51,11 @@
 31 silly npa   hosted: undefined }
 32 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 33 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-34 verbose fixed increment 2.2.0 by minor
+34 verbose fixed increment 2.3.0 by minor
 35 silly fixed for @kev/test1 at /Users/knedelec/tmp/lerna_repo/packages/test1
-36 verbose fixed increment 2.2.0 by minor
+36 verbose fixed increment 2.3.0 by minor
 37 silly fixed for @kev/test2 at /Users/knedelec/tmp/lerna_repo/packages/test2
-38 verbose fixed increment 2.2.0 by minor
+38 verbose fixed increment 2.3.0 by minor
 39 info execute Skipping releases
 40 silly lifecycle No script for "preversion" in "root", continuing
 41 silly lifecycle No script for "preversion" in "@kev/test1", continuing
@@ -64,17 +64,17 @@
 44 silly fixed for @kev/test2 at /Users/knedelec/tmp/lerna_repo/packages/test2
 45 silly lifecycle No script for "version" in "@kev/test1", continuing
 46 silly fixed for @kev/test1 at /Users/knedelec/tmp/lerna_repo/packages/test1
-47 silly fixed writing new entry: "# [2.3.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.3.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
-48 silly fixed writing new entry: "# [2.3.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.3.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+47 silly fixed writing new entry: "# [2.4.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.4.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+48 silly fixed writing new entry: "# [2.4.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.4.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
 49 verbose fixed wrote /Users/knedelec/tmp/lerna_repo/packages/test2/CHANGELOG.md
 50 verbose fixed wrote /Users/knedelec/tmp/lerna_repo/packages/test1/CHANGELOG.md
 51 silly lifecycle No script for "preversion" in "main_test", continuing
 52 silly lifecycle No script for "version" in "main_test", continuing
 53 silly fixed for main_test at /Users/knedelec/tmp/lerna_repo/packages/main_test
-54 silly fixed writing new entry: "# [2.3.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.3.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+54 silly fixed writing new entry: "# [2.4.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.4.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
 55 verbose fixed wrote /Users/knedelec/tmp/lerna_repo/packages/main_test/CHANGELOG.md
 56 silly root for root at /Users/knedelec/tmp/lerna_repo
-57 silly root writing new entry: "# [2.3.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.3.0) (2020-02-24)\n\n\n### Bug Fixes\n\n* typo ([c476b30](https://github.com/KNedelec/ltest/commit/c476b307d2d97da367bfef8d435eba36870879ea))\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+57 silly root writing new entry: "# [2.4.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.4.0) (2020-02-24)\n\n\n### Bug Fixes\n\n* typo ([c476b30](https://github.com/KNedelec/ltest/commit/c476b307d2d97da367bfef8d435eba36870879ea))\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
 58 verbose root wrote /Users/knedelec/tmp/lerna_repo/CHANGELOG.md
 59 silly lifecycle No script for "version" in "root", continuing
 60 silly gitAdd [ '/Users/knedelec/tmp/lerna_repo/packages/test2/package.json',

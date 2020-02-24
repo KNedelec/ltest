@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.4.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.4.0) (2020-02-24)
+
+
+### Bug Fixes
+
+* typo ([c476b30](https://github.com/KNedelec/ltest/commit/c476b307d2d97da367bfef8d435eba36870879ea))
+
+
+### Features
+
+* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))
+
+
+
+
+
 # [2.3.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.3.0) (2020-02-24)
 
 
