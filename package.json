@@ -2,14 +2,13 @@
   "name": "root",
   "version": "1.0.0",
   "private": true,
-  "workspace": {
+  "workspaces": [
     "packages/*"
-  },
+  ],
   "scripts": {
     "v": "lerna version --conventional-commits"
   },
   "devDependencies": {
     "lerna": "^3.20.2"
-  },
-  "dependencies": {}
+  }
 }
