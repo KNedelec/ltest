@@ -1,0 +1,91 @@
+0 silly argv { _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': '/Users/knedelec/tmp/lerna_repo/node_modules/.bin/lerna' }
+1 notice cli v3.20.2
+2 verbose rootPath /Users/knedelec/tmp/lerna_repo
+3 info current version 2.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 2
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "v2.0.0-2-gc476b30" => {"lastTagName":"v2.0.0","lastVersion":"v2.0.0","refCount":"2","sha":"c476b30","isDirty":false}
+14 info Looking for changed packages since v2.0.0
+15 silly checking diff packages/main_test
+16 silly found diff in packages/main_test
+17 verbose filtered diff [ 'packages/main_test' ]
+18 silly checking diff packages/test1
+19 silly found diff in packages/test1/package.json
+20 verbose filtered diff [ 'packages/test1/package.json' ]
+21 silly checking diff packages/test2
+22 silly found diff in packages/test2/package.json
+23 verbose filtered diff [ 'packages/test2/package.json' ]
+24 verbose updated main_test
+25 verbose updated @kev/test1
+26 verbose updated @kev/test2
+27 verbose git-describe undefined => "v2.0.0-2-gc476b30"
+28 silly git-describe parsed => {"lastTagName":"v2.0.0","lastVersion":"v2.0.0","refCount":"2","sha":"c476b30","isDirty":false}
+29 verbose version Overriding version of main_test from 1.0.0 to 2.0.0
+30 silly fixed for main_test at /Users/knedelec/tmp/lerna_repo/packages/main_test
+31 verbose getChangelogConfig using preset "conventional-changelog-angular"
+32 silly npa Result {
+32 silly npa   type: 'tag',
+32 silly npa   registry: true,
+32 silly npa   where: undefined,
+32 silly npa   raw: 'conventional-changelog-angular',
+32 silly npa   name: 'conventional-changelog-angular',
+32 silly npa   escapedName: 'conventional-changelog-angular',
+32 silly npa   scope: undefined,
+32 silly npa   rawSpec: '',
+32 silly npa   saveSpec: null,
+32 silly npa   fetchSpec: 'latest',
+32 silly npa   gitRange: undefined,
+32 silly npa   gitCommittish: undefined,
+32 silly npa   hosted: undefined }
+33 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+34 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+35 verbose fixed increment 2.0.0 by minor
+36 silly fixed for @kev/test1 at /Users/knedelec/tmp/lerna_repo/packages/test1
+37 verbose fixed increment 2.0.0 by minor
+38 silly fixed for @kev/test2 at /Users/knedelec/tmp/lerna_repo/packages/test2
+39 verbose fixed increment 2.0.0 by minor
+40 info execute Skipping releases
+41 silly lifecycle No script for "preversion" in "root", continuing
+42 silly lifecycle No script for "preversion" in "@kev/test1", continuing
+43 silly lifecycle No script for "preversion" in "@kev/test2", continuing
+44 silly lifecycle No script for "version" in "@kev/test1", continuing
+45 silly fixed for @kev/test1 at /Users/knedelec/tmp/lerna_repo/packages/test1
+46 silly lifecycle No script for "version" in "@kev/test2", continuing
+47 silly fixed for @kev/test2 at /Users/knedelec/tmp/lerna_repo/packages/test2
+48 silly fixed writing new entry: "# [2.1.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.1.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+49 silly fixed writing new entry: "# [2.1.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.1.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+50 verbose fixed wrote /Users/knedelec/tmp/lerna_repo/packages/test1/CHANGELOG.md
+51 verbose fixed wrote /Users/knedelec/tmp/lerna_repo/packages/test2/CHANGELOG.md
+52 silly lifecycle No script for "preversion" in "main_test", continuing
+53 silly lifecycle No script for "version" in "main_test", continuing
+54 silly fixed for main_test at /Users/knedelec/tmp/lerna_repo/packages/main_test
+55 silly fixed writing new entry: "# [2.1.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.1.0) (2020-02-24)\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+56 verbose fixed wrote /Users/knedelec/tmp/lerna_repo/packages/main_test/CHANGELOG.md
+57 silly root for root at /Users/knedelec/tmp/lerna_repo
+58 silly root writing new entry: "# [2.1.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.1.0) (2020-02-24)\n\n\n### Bug Fixes\n\n* typo ([c476b30](https://github.com/KNedelec/ltest/commit/c476b307d2d97da367bfef8d435eba36870879ea))\n\n\n### Features\n\n* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))\n\n\n\n"
+59 verbose root wrote /Users/knedelec/tmp/lerna_repo/CHANGELOG.md
+60 silly lifecycle No script for "version" in "root", continuing
+61 silly gitAdd [ '/Users/knedelec/tmp/lerna_repo/packages/test1/package.json',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/packages/test2/package.json',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/packages/test1/CHANGELOG.md',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/packages/test2/CHANGELOG.md',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/packages/main_test/package.json',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/packages/main_test/CHANGELOG.md',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/CHANGELOG.md',
+61 silly gitAdd   '/Users/knedelec/tmp/lerna_repo/lerna.json' ]
+62 error Error: Command failed: git add -- packages/test1/package.json packages/test2/package.json packages/test1/CHANGELOG.md packages/test2/CHANGELOG.md packages/main_test/package.json packages/main_test/CHANGELOG.md CHANGELOG.md lerna.json
+62 error fatal: Pathspec 'packages/main_test/package.json' is in submodule 'packages/main_test'
+62 error
+62 error     at makeError (/Users/knedelec/tmp/lerna_repo/node_modules/execa/index.js:174:9)
+62 error     at Promise.all.then.arr (/Users/knedelec/tmp/lerna_repo/node_modules/execa/index.js:278:16)
