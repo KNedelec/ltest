@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/KNedelec/ltest/compare/v3.0.0...v5.0.0) (2020-02-24)
+
+
+* lol2 ([08f6f60](https://github.com/KNedelec/ltest/commit/08f6f60f0f782c6d14df882186863e142488a168))
+
+
+### Bug Fixes
+
+* aa ([c757e29](https://github.com/KNedelec/ltest/commit/c757e295e46a30de76d67cc8573c6ed749697d16))
+
+
+### BREAKING CHANGES
+
+* lol2
+
+
+
+
+
 # [3.0.0](https://github.com/KNedelec/ltest/compare/v2.5.0...v3.0.0) (2020-02-24)
 
 
