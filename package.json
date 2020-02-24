@@ -2,6 +2,9 @@
   "name": "root",
   "version": "1.0.0",
   "private": true,
+  "workspace": {
+    "packages/*"
+  },
   "scripts": {
     "v": "lerna version --conventional-commits"
   },
