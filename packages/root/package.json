@@ -1,6 +1,6 @@
 {
   "name": "main_test",
-  "version": "2.5.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@kev/test1": "^2.5.0",
-    "@kev/test2": "^2.5.0"
+    "@kev/test1": "^3.0.0",
+    "@kev/test2": "^3.0.0"
   }
 }

@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/KNedelec/ltest/compare/v2.5.0...v3.0.0) (2020-02-24)
+
+
+* test break ([19a44e7](https://github.com/KNedelec/ltest/commit/19a44e733ee69d5c04414bd03ef670497f9f681e))
+
+
+### BREAKING CHANGES
+
+* breakxq
+
+
+
+
+
 # [2.5.0](https://github.com/KNedelec/ltest/compare/v2.0.0...v2.5.0) (2020-02-24)
 
 
