@@ -3,6 +3,66 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2020-02-24)
+
+
+* lol2 ([08f6f60](https://github.com/KNedelec/ltest/commit/08f6f60f0f782c6d14df882186863e142488a168))
+
+
+### BREAKING CHANGES
+
+* lol2
+
+
+
+# 3.0.0 (2020-02-24)
+
+
+* test break ([19a44e7](https://github.com/KNedelec/ltest/commit/19a44e733ee69d5c04414bd03ef670497f9f681e))
+
+
+### BREAKING CHANGES
+
+* breakxq
+
+
+
+# 2.5.0 (2020-02-24)
+
+
+### Features
+
+* workspaces ([ac69e6d](https://github.com/KNedelec/ltest/commit/ac69e6d533cad9de307c47014bab90b265c48130))
+
+
+
+# 2.0.0 (2020-02-24)
+
+
+* break2 ([47ba512](https://github.com/KNedelec/ltest/commit/47ba512b4b1625cd699833e2613ab04e396e3ab3))
+
+
+### BREAKING CHANGES
+
+* break num 2
+
+
+
+## 1.1.1 (2020-02-24)
+
+
+
+# 1.1.0 (2020-02-24)
+
+
+### Bug Fixes
+
+* file2 ([7b505c4](https://github.com/KNedelec/ltest/commit/7b505c4c88119957812280ec15e5cddf31e38ff3))
+
+
+
+
+
 # [3.0.0](https://github.com/KNedelec/ltest/compare/v2.5.0...v3.0.0) (2020-02-24)
 
 
